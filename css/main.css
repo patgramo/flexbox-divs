@@ -109,15 +109,42 @@ body {
   height: 100%;
 }
 
+header {
+    font-size: 3em;
+    color: #ffffff;
+    width: 100%;
+    height: 80px;
+}
+
+main {
+    font-size: 1.5em;
+    color: #ffffff;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin: 2% 0;
+}
+
+footer {
+    font-size: 1em;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    background: #27c9a65d;
+}
+
 .wrapper {
-  /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
   font-size: 1rem;
@@ -127,7 +154,8 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  padding: 2%;
+  padding: 1%;
+  margin: 2% 0;
 }
 
 .div-2 {
